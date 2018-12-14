@@ -1,0 +1,430 @@
+{
+	"info": {
+		"_postman_id": "c0e26f3f-28bb-425d-a6ca-9ea7e648659d",
+		"name": "cs5200ExtraCredit",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/actor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/actor",
+					"protocol": "http",
+					"host": [
+						"cs5200fall2018dasextracreditenv",
+						"hw83ervrqy",
+						"us-east-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"api",
+						"actor"
+					]
+				},
+				"description": "1"
+			},
+			"response": []
+		},
+		{
+			"name": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/actor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"Harrison\"}"
+				},
+				"url": {
+					"raw": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/actor",
+					"protocol": "http",
+					"host": [
+						"cs5200fall2018dasextracreditenv",
+						"hw83ervrqy",
+						"us-east-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"api",
+						"actor"
+					]
+				},
+				"description": "2"
+			},
+			"response": []
+		},
+		{
+			"name": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/actor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"first\":\"Ryan\",\"last\":\"Goslyn\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/actor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"actor"
+					]
+				},
+				"description": "3"
+			},
+			"response": []
+		},
+		{
+			"name": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/actor",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"first\":\"Ryan\",\"last\":\"Goslyn\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/actor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"actor"
+					]
+				},
+				"description": "4"
+			},
+			"response": []
+		},
+		{
+			"name": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/actor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/actor",
+					"protocol": "http",
+					"host": [
+						"cs5200fall2018dasextracreditenv",
+						"hw83ervrqy",
+						"us-east-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"api",
+						"actor"
+					]
+				},
+				"description": "5"
+			},
+			"response": []
+		},
+		{
+			"name": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/movie/432",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"Joseph\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/movie/432",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movie",
+						"432"
+					]
+				},
+				"description": "6"
+			},
+			"response": []
+		},
+		{
+			"name": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/actor/432",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\": \"Joseph\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/actor/432",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"actor",
+						"432"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/actor/2",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{name: 'Joseph'}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/actor/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"actor",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/actor/2",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{nombre: 'Jose'}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/actor/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"actor",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/movie/111",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/movie/111",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movie",
+						"111"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/actor/111",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/actor/111",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"actor",
+						"111"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/actor/2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/actor/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"actor",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/movie",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"title\":\"Blade Runner\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/movie",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movie"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://cs5200fall2018dasextracreditenv.hw83ervrqy.us-east-2.elasticbeanstalk.com/api/movie",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"title\":\"La La Land\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/movie",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"movie"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
